@@ -1,0 +1,37 @@
+正则表达式：
+\d    0-9任意的一个数字
+\D    \d的补集
+\w    可以是数字，大小写字母，下划线
+\W    \w的补集
+\s    空白字符
+\S    \s的补集
+从头到尾的判断（eg：^\d$）从头到尾判断是不是0-9中的任意一个数字。
+             开始用^
+             结束用$
+\      在正则里转义字符，无实意
+.
+
+
+*.doc      所有的doc文件
+?强?       第二个字是强的名字
+pagerank   网页排序（爬虫）
+?<名字>    正则的命名
+
+
+
+字幕滚动
+       //int i = 0, t = 1;
+        //private void timer1_Tick(object sender, EventArgs e)
+        //{
+        //    richTextBox2.Select(i,1);
+        //    richTextBox2.SelectionColor = Color.Red;
+        //    i += t;
+        //    if (i == 0 || i == richTextBox2.Text.Length - 1)
+        //    {
+        //        t = -t;
+        //    }
+        //}
+
+
+
+http://www.cnblogs.com/brucezhang80/p/csharp_get_weather_forecast_by_baidu_weather_api.html
